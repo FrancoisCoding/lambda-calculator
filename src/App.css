@@ -10,10 +10,49 @@
   border-radius: 50%;
   padding: 1.5rem;
 }
+.numberBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 13rem;
+}
+.specialBtn {
+  background: #2061b0;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+.specialBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 13rem;
+}
+.operatorBtn {
+  background: #3db5e5;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
 
 .calculatorContainer {
   background: #bb1233;
   width: 70%;
   border: 1px solid #808080;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.calculatorButtons {
+  display: flex;
+}
+
+.numberBtn:hover,
+.specialBtn:hover,
+.operatorBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
