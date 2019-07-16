@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.calculatorScreen {
+  background: #2d2829;
+  color: white;
+  width: 17rem;
+  padding: 1rem;
+  text-align: end;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
 .numberBtn {
   background: #113c78;
   color: white;
@@ -37,13 +47,14 @@
 
 .calculatorContainer {
   background: #bb1233;
-  width: 70%;
+  width: 23rem;
   border: 1px solid #808080;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 3rem;
+  margin: 0 auto;
 }
 
 .calculatorButtons {
