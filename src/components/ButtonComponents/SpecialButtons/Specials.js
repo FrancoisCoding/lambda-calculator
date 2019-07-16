@@ -7,7 +7,7 @@ import { specials } from "../../../data";
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-  console.log(specials);
+  console.log("specials", specials);
   const [stateSpecials, setNumber] = useState(specials);
 
   return (

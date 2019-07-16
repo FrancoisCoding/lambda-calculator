@@ -7,8 +7,8 @@ import { operators } from "../../../data";
 
 const Operators = () => {
   // STEP 2 - add the imported data to state
-  console.log(operators);
-  const [stateNumbers, setNumber] = useState(operators);
+  console.log("operators", operators);
+  const [stateOperators, setNumber] = useState(operators);
 
   return (
     <div>
